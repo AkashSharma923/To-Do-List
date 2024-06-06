@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+      font-family: "Poppins";
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      width: 100%;
+      min-height: 100vh;
+      padding: 10px;
+      background: linear-gradient(135deg, #392a21, #ff4800);
+}
+
+.container {
+      width: 100%;
+      max-width: 900px;
+      background: rgb(255, 255, 255);
+      margin: 100px auto 20px;
+      padding: 40px 30px 70px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 15px rgba(7, 0, 0, 0.3);
+}
+
+input,
+button {
+      margin-top: 30px;
+}
+
+.row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+input {
+      background-color: rgb(225, 225, 225);
+      padding: 10px 10px 10px 30px;
+      border: 1px solid black;
+      border-top-left-radius: 100px;
+      border-bottom-left-radius: 100px;
+      width: 85%;
+      color: rgb(0, 0, 0);
+      position: relative;
+      font-weight: bolder;
+}
+
+button {
+      background-color: #f3642c;
+      border-radius: 30px;
+      padding: 10px;
+      width: 14%;
+      border: 2px solid black;
+      position: relative;
+      right: 27px;
+      z-index: 1;
+
+}
+
+button:hover {
+      background-color: #ff9945;
+}
+
+
+li {
+      display: inline;
+      text-decoration: underline;
+      color: black;
+      font-size: 25px;
+
+}
+
+.task {
+      padding-left: 10px;
+      padding: 7px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #d3d3d3;
+      background-color: #d9d9d9;
+      border-radius: 30px;
+}
+
+img {
+      width: 25;
+      height: 25px;
+      z-index: 100;
+      margin-right: 10px;
+}
+img:hover{
+      background-color: rgb(225, 24, 24);
+      border-radius: 50%;
+      
+}
+
+.check {
+      display: inline;
+      width: 25px;
+      height: 25px;
+      margin: 0px 25px 0px 10px;
+      background-color: #ff4800;
+      /* text-decoration: ; */
+}
+
+.whTask {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.new{
+      text-decoration: line-through;
+      opacity: 0.5;
+}
